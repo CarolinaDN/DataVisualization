@@ -1,0 +1,272 @@
+,country_name_short,country_name,party_name_short,party_name_english,party_name,family_name,left_right,liberty_authority,seats
+0,AUT,Austria,FPO,Freedom Party of Austria,Freiheitliche Partei �sterreichs,Right-wing,8.3494,8.5149,30.0
+1,AUT,Austria,Gruene,The Greens -- The Green Alternative,Die Gr�nen � Die Gr�ne Alternative,Green/Ecologist,2.4604,1.4308,26.0
+2,AUT,Austria,NEOS,NEOS -- The New Austria,NEOS � Das Neue �sterreich,Liberal,6.0,3.6,15.0
+3,AUT,Austria,OVP,Austrian People's Party,�sterreichische Volkspartei,Christian democracy,6.4733,7.6198,71.0
+4,AUT,Austria,SPO,Social Democratic Party of Austria,Sozialdemokratische Partei �sterreichs,Social democracy,3.7293,3.4766,40.0
+0,BEL,Belgium,AGL-Gr,Agalev -- Green,Agalev � Groen,Green/Ecologist,2.5762,1.0234,6.0
+1,BEL,Belgium,CD,Catholic Dissidents,Catholic Dissidents,Christian democracy,6.2,7.1,0.0
+2,BEL,Belgium,CVP|CD&V,Flemish Christian Peoples Party | Christian Democrats & Flemish,Christelijke Volkspartij | Christen-Democratisch en Vlaams,Christian democracy,5.7667,7.2083,18.0
+3,BEL,Belgium,Ecolo,Confederated ecologists for the organisation of original struggles,�cologistes Conf�d�r�s pour l'organisation de luttes originales,Green/Ecologist,2.641,1.3744,6.0
+4,BEL,Belgium,FDF,Francophone Democratic Front,Front D�mocratique des Francophones | D�FI,Liberal,6.1259,5.8,2.0
+5,BEL,Belgium,MR,Reformist Movement,Mouvement R�formateur,Liberal,6.6889,4.2102,20.0
+6,BEL,Belgium,N-VA,New Flemish Alliance,Nieuw-Vlaamse Alliantie,Conservative,6.5321,6.06,33.0
+7,BEL,Belgium,PA-PTB,Workers' Party of Belgium,Partij van de Arbeid � Parti du Travail de Belgique,Communist/Socialist,1.3,3.0,2.0
+8,BEL,Belgium,PS,Socialist Party [Francophone],Parti Socialiste,Social democracy,2.9307,3.1712,23.0
+9,BEL,Belgium,PSC-CDH,Francophone Christian Social Party -- Humanist Democratic Centre,Parti Social Chr�tien � Centre Democrate Humaniste,Christian democracy,5.4974,6.6409,9.0
+10,BEL,Belgium,PVV|VLD,Party of Liberty and Progress | Flemish Liberals and Democrats,Partij voor Vrijheid en Vooruitgang | Vlaamse Liberalen en Democraten,Liberal,7.0053,3.7139,14.0
+11,BEL,Belgium,Pp,People's Party,Parti populaire,Conservative,7.4,7.0,1.0
+12,BEL,Belgium,SPa+Spi,Socialist Party Different / Social Liberal Party,Socialistische Partij Anders / Sociaal-Liberale Partij,Social democracy,3.255,3.0805,13.0
+13,BEL,Belgium,V,Alive,Vivant,Liberal,6.0,3.6,0.0
+14,BEL,Belgium,VB,Flemish Block,Vlaams Blok,Right-wing,9.6622,9.5234,3.0
+0,BGR,Bulgaria,Ataka,Attack,Ataka,Right-wing,5.46,9.17,6.0
+1,BGR,Bulgaria,BSP,Bulgarian Socialist Party,Balgarska Sotsialisticheska Partiya,Social democracy,3.0064,4.5029,63.0
+2,BGR,Bulgaria,GERB,Citizens for European Development of Bulgaria,Grazhdani za Evropeysko Razvitie na Balgariya,Conservative,7.4,7.0,95.0
+3,BGR,Bulgaria,KPB,Communist Party of Bulgaria,Komunisticheska Partiya na Balgariya,Communist/Socialist,0.3684,7.8289,1.0
+4,BGR,Bulgaria,NFSB,National Front for the Salvation of Bulgaria,Natsionalen Front za Spasenie na Balgariya,Right-wing,8.8,8.5,9.0
+5,BGR,Bulgaria,PBSD,Party of Bulgarian Social Democrats,Partiya Balgarski Sotsialdemokrati,Social democracy,3.7778,3.4211,1.0
+6,BGR,Bulgaria,VMRO,IMRO -- Bulgarian National Movement,VMRO � Balgarsko Natsionalno Dvizhenie,Right-wing,8.8,8.5,12.0
+7,BGR,Bulgaria,Volya,Will,Volya,Liberal,6.0,3.6,12.0
+0,CYP,Cyprus,AKEL,Progressive Party of Working People,Anorthotik� K�mma Ergaz�menou Lao�,Communist/Socialist,1.0526,6.1842,16.0
+1,CYP,Cyprus,DIKO,Democratic Party,Dimokratik� K�mma,Conservative,5.1316,6.0526,7.0
+2,CYP,Cyprus,DISY,Democratic Rally,Dimokratik�s Sinayerm�s,Conservative,8.6842,5.0,18.0
+3,CYP,Cyprus,EDEK,Movement for Social Democracy EDEK,Kinima Sosialdimokraton EDEK,Social democracy,3.2895,5.9211,3.0
+4,CYP,Cyprus,ELAM,National Popular Front,Ethniko Laiko Metopo,Right-wing,8.8,8.5,2.0
+5,CYP,Cyprus,KOP,Ecological and Environmental Movement,Kinima Oikologoi Perivallontistoi,Green/Ecologist,5.7895,5.7895,2.0
+-1,CZE,Czech Republic,ANO,Year 2011,Ano 2011,Populist,4,6,1.0
+-2,CZE,Czech Republic,ODS,Civil Democratic Party,Civic Democratic Party,Liberal Conservative,7,4.5,1.0
+-3,CZE,Czech Republic,Piráti,Czech Pirate Party,Czech Pirate Party,Liberal,4,4,1.0
+-4,CZE,Czech Republic,KSCM,Communist Party of Bohemia and Moravia,Communist Party of Bohemia and Moravia,Communist,1,9,1.0
+-5,CZE,Czech Republic,CSSD,Czech Social Democratic Party,Czech Social Democratic Party,Social Democracy,3,6,1.0
+-6,CZE,Czech Republic,KDU-ČSL,Christian and Democratic Union,Christian and Democratic Union,Christian Democracy,5,6,1.0
+-7,CZE,Czech Republic,TOP,TOP 09,TOP 09,Liberal Conservative,6,6,1.0
+-8,CZE,Czech Republic,STAN,Mayors and Independents,Mayors and Independents,Liberal,6,5,1.0
+0,DEU,Germany,AfD,Alternative for Germany,Alternative f�r Deutschland,Right-wing,8.8,8.5,88.0
+1,DEU,Germany,B90/Gr,Alliance 90 / Greens -- Citizens' Movement,B�ndnis 90 / Gr�ne � B�rgerInnenbewegung,Green/Ecologist,2.5,1.8,67.0
+2,DEU,Germany,CDU,Christian Democratic Union,Christlich Demokratische Union,Christian democracy,6.2503,6.9333,200.0
+3,DEU,Germany,CSU,Christian Social Union,Christlich Soziale Union,Christian democracy,7.2871,7.8675,46.0
+4,DEU,Germany,FDP,Free Democratic Party,Freie Demokratische Partei,Liberal,5.9233,3.0695,80.0
+5,DEU,Germany,ODP,Ecological Democratic Party,�kologisch-Demokratische Partei,Green/Ecologist,2.5,1.8,0.0
+6,DEU,Germany,PARTEI,The PARTY,Die PARTEI,Special issue,0.0,0.0,0.0
+7,DEU,Germany,PDS|Li,PDS | The Left,PDS | Die Linke,Communist/Socialist,1.2152,3.205,69.0
+8,DEU,Germany,SPD,Social Democratic Party of Germany,Sozialdemokratische Partei Deutschlands,Social democracy,3.6451,3.9791,152.0
+0,DNK,Denmark,A,The Alternative,Alternativet,Green/Ecologist,2.5,1.8,5.0
+1,DNK,Denmark,CD,Centre Democrats,Centrumdemokraterne,Conservative,5.5609,4.9307,0.0
+2,DNK,Denmark,DF,Danish Peoples Party,Dansk Folkeparti,Right-wing,8.2269,7.8954,16.0
+3,DNK,Denmark,DS,Danish Union,Dansk Samling,Right-wing,8.8,8.5,0.0
+4,DNK,Denmark,En-O,Red-Green Alliance,Enhedslisten � De R�d-Gr�nne,Communist/Socialist,0.8912,1.7524,13.0
+5,DNK,Denmark,KF,Conservatives,Konservative,Conservative,7.2186,6.5055,12.0
+6,DNK,Denmark,NB,The New Right,Nye Borgerlige,Right-wing,8.8,8.5,4.0
+7,DNK,Denmark,RV,Danish Social Liberal Party,Det Radikale Venstre,Liberal,4.8736,2.3903,16.0
+8,DNK,Denmark,SF,Socialist Peoples Party,Socialistisk Folkeparti,Green/Ecologist,2.1347,2.1476,14.0
+9,DNK,Denmark,Sd,Social Democrats,Socialdemokraterne,Social democracy,3.8011,4.2722,48.0
+10,DNK,Denmark,V,Liberal Party,Venstre,Liberal,7.292,4.9957,43.0
+0,ESP,Spain,AP-P,People's Alliance-Party,Alianza-Partido Popular,Conservative,7.5969,7.8127,89.0
+1,ESP,Spain,CC,Canary Coalition,Coalici�n Canaria,Special issue,5.9789,5.7694,2.0
+2,ESP,Spain,CDC|JxCat,Democratic Convergence | Together for Catalonia,Converg�ncia Democr�tica | Junts per Catalunya,Conservative,7.4,7.0,8.0
+3,ESP,Spain,Cs,Citizens -- Party of the Citizenry,Ciudadanos � Partido de la Ciudadan�a,Liberal,6.0,3.6,10.0
+4,ESP,Spain,C|AV,Compromise | A la valenciana,Comprom�s | A la valenciana,Communist/Socialist,1.3,3.0,1.0
+5,ESP,Spain,EHB,Basque Country Unite,Euskal Herria Bildu,Special issue,0.0,0.0,0.0
+6,ESP,Spain,ERC,Republican Left of Catalonia,Esquerra Republicana de Catalunya,Special issue,3.1072,2.7325,13.0
+7,ESP,Spain,NA+,Sum Navarre,Navarra Suma,Conservative,7.4,7.0,2.0
+8,ESP,Spain,PACMA,Animalist Party Against Mistreatment to Animals,Partido Animalista Contra el Maltrato Animal,Special issue,0.0,0.0,0.0
+9,ESP,Spain,PNV,Basque Nationalist Party,Partido Nacionalista Vasco � Euzko Alderdi Jeltzalea,Christian democracy,6.2144,6.5139,6.0
+10,ESP,Spain,PSOE,Spanish Socialist Workers Party,Partido Socialista Obrero Espa�ol,Social democracy,3.7377,3.0399,120.0
+11,ESP,Spain,UP,United We Can,Unidas Podemos,Communist/Socialist,1.3,3.0,35.0
+12,ESP,Spain,Vox,Voice,Vox,Right-wing,8.8,8.5,52.0
+0,EST,Estonia,EK,Estonian Centre Party,Eesti Keskerakond,Social democracy,3.9562,4.9947,26.0
+1,EST,Estonia,ERa/EKR,People's Union of Estonia / Conservative People's Party,Eestimaa Rahvalliit / Eesti Konservatiivne Rahvaerakond,Conservative,4.5812,6.9474,19.0
+2,EST,Estonia,ERe,Estonian Reform Party,Eesti Reformierakond,Liberal,7.8969,5.2737,34.0
+3,EST,Estonia,I,Pro Patria Union,Isamaaliit,Conservative,7.6169,7.3789,12.0
+4,EST,Estonia,SDE|M,Social Democratic Party | Moderates,Sotsiaaldemokraatlik Erakond | M��dukad,Social democracy,4.1915,3.1737,10.0
+0,FIN,Finland,DL|VAS,Democratic Union | Left Alliance,Demokraattinen Liitto � Demokratiska F�rbundet | Vasemmistoliitto � V�nsterf�rbundet ,Communist/Socialist,2.1843,3.3406,16.0
+1,FIN,Finland,KD,Christian Democrats,Kristillisdemokraatit � Kristdemokraterna,Christian democracy,7.1884,8.3076,5.0
+2,FIN,Finland,KESK,Centre Party,Keskusta,Agrarian,5.8027,7.2203,31.0
+3,FIN,Finland,KOK,National Coalition Party,Kansallinen Kokoomus � Samlingspartiet,Conservative,7.2451,5.5872,38.0
+4,FIN,Finland,LN,Movement Now,Liike Nyt,Liberal,6.0,3.6,1.0
+5,FIN,Finland,RKP-SFP,Swedish People's Party,Ruotsalainen Kansanpuolue � Svenska Folkepartiet i Finland,Liberal,6.3906,3.8385,9.0
+6,FIN,Finland,SP|P,Finnish Party | True Finns,Suomen Puolue | Perussuomalaiset,Agrarian,6.6331,7.999,39.0
+7,FIN,Finland,SSDP,Social Democratic Party of Finland,Suomen Sosialidemokraattinen Puolue � Finlands Socialdemokratiska Parti,Social democracy,3.5595,4.2417,40.0
+8,FIN,Finland,VIHR,Green League,Vihre� Liitto � Gr�na F�rbundet,Green/Ecologist,3.6465,2.2671,20.0
+0,FRA,France,AC,Centrist Alliance,Alliance centriste,Liberal,6.0,3.6,0.0
+1,FRA,France,DLR|DLF,Republic Arise | France Arise,Debout la r�publique | Debout la France,Conservative,7.4,7.0,1.0
+2,FRA,France,FI,Unbowed France,La France Insoumise,Communist/Socialist,1.3,3.0,17.0
+3,FRA,France,FN,National Front,Front national,Right-wing,9.6854,9.2889,8.0
+4,FRA,France,GDR,Democratic and Republican Left,Gauche d�mocrate et r�publicaine,Communist/Socialist,1.3,3.0,0.0
+5,FRA,France,MR,Reformers Movement,Mouvement r�formateur,Christian democracy,5.8695,5.4033,0.0
+6,FRA,France,NC,New Centre,Nouveau centre,Liberal,6.0,3.6,0.0
+7,FRA,France,PCF,French Communist Party,Parti communiste fran�aise,Communist/Socialist,1.3741,4.5083,10.0
+8,FRA,France,PRG,Radical Party of the Left,Parti radical de gauche,Social democracy,4.0813,4.2381,3.0
+9,FRA,France,PS,Socialist Party,Parti socialiste,Social democracy,3.2493,2.9367,30.0
+10,FRA,France,REM,The Republic Onwards!,La R�publique En Marche!,Liberal,6.0,3.6,308.0
+11,FRA,France,SI,Independent Socialists,Socialistes ind�pendants,Communist/Socialist,1.3,3.0,0.0
+12,FRA,France,UDF|MD,Union for French Democracy | Democratic Movement,Union pour la d�mocratie fran�aise | Mouvement d�mocrate,Conservative,6.1017,5.4999,42.0
+13,FRA,France,UDI,Union of Democrats and Independents,Union des d�mocrates et ind�pendants,Conservative,7.4,7.0,18.0
+14,FRA,France,UMP|LR,Union for a Popular Movement | The Republicans,Union pour un mouvement populaire | Les R�publicains,Conservative,7.4997,7.1854,112.0
+15,FRA,France,droite,other right,divers droite,Conservative,7.6583,9.0,6.0
+16,FRA,France,gauche,other left,divers gauche,Social democracy,3.3,3.5,12.0
+0,GRC,Greece,EL,Greek Solution,Elliniki Lisi,Conservative,7.4,7.0,10.0
+1,GRC,Greece,KEE(I),Communist Party of Greece (Interior),Kommunistikon Komma Ellados Esoterikou,Communist/Socialist,1.3,3.0,15.0
+2,GRC,Greece,KIDISO,Movement of Democratic Socialists,Kinima Dimokraton Sosialiston,Social democracy,3.3,3.5,0.0
+3,GRC,Greece,MR25,European Realistic Disobedience Front [MeRa25],European Realistic Disobedience Front [MeRa25],Communist/Socialist,1.3,3.0,9.0
+4,GRC,Greece,ND,New Democracy,N�a ?imokrat�a,Christian democracy,6.7365,6.6712,158.0
+5,GRC,Greece,PASOK,Movement for Change,Panellinio Sosialistik� K�nima,Social democracy,4.4968,3.6025,22.0
+6,GRC,Greece,SYRIZA,Coalition of the Radical Left,Synaspism�s Rizospastik�s Arister�s,Communist/Socialist,2.8947,2.0066,86.0
+0,HRV,Croatia,HB,Croatian Bloc,Hrvatski blok,Right-wing,9.386,7.6842,1.0
+1,HRV,Croatia,HDSS,Croatian Democratic Peasant Party,Hrvatska demokratska selja?ka stranka,Agrarian,5.3,6.5,2.0
+2,HRV,Croatia,HDZ,Croatian Democratic Union,Hrvatska demokratska zajednica,Christian democracy,7.1053,6.9298,62.0
+3,HRV,Croatia,HSLS,Croatian Social Liberal Party,Hrvatska socijalno liberalna stranka,Liberal,7.193,5.5263,2.0
+4,HRV,Croatia,IDS,Istrian Democratic Assembly,Istarski demokratski sabor,Liberal,3.4211,2.5439,3.0
+5,HRV,Croatia,Most,Bridge of Independent Lists,Most nezavisnih lista,Conservative,7.4,7.0,8.0
+6,HRV,Croatia,ORaH,Sustainable Development of Croatia,Odr�ivi razvoj Hrvatske,Green/Ecologist,2.5,1.8,0.0
+7,HRV,Croatia,SDSS, Independent Democratic Serb Party,Samostalna demokratska srpska stranka,Social democracy,3.3,3.5,3.0
+8,HRV,Croatia,SPH,Social Democratic Party of Croatia,Socijaldemokratska partija Hrvatske,Social democracy,3.2456,2.3684,32.0
+9,HRV,Croatia,ZZ,Greens Together,Zeleni Zajedno,Green/Ecologist,2.5,1.8,4.0
+0,HUN,Hungary,DK,Democratic Coalition,Demokratikus Koal�ci�,Social democracy,3.3,3.5,9.0
+1,HUN,Hungary,Fi+KDNP,Fidesz -- Hungarian Civic Party / Christian Democratic People's Party,Fidesz � Magyar Polg�ri Sz�vets�g / Kereszt�nydemokrata N�pp�rt,Conservative,6.5432,7.5275,133.0
+2,HUN,Hungary,Fi-MPSz,Fidesz -- Hungarian Civic Union,Fidesz � Magyar Polg�ri Sz�vets�g,Conservative,6.5432,7.5275,0.0
+3,HUN,Hungary,Jobbik,Jobbik Movement for a Better Hungary,Jobbik Magyarorsz�g�rt Mozgalom,Right-wing,8.8,8.5,26.0
+4,HUN,Hungary,KDNP,Christian Democratic People's Party,Kereszt�nydemokrata N�pp�rt,Christian democracy,7.4,8.33,0.0
+5,HUN,Hungary,LMP,Politics Can Be Different,Lehet M�s a Politika,Green/Ecologist,2.5,1.8,8.0
+6,HUN,Hungary,MM,Momentum Movement,Momentum Mozgalom,Conservative,7.4,7.0,0.0
+7,HUN,Hungary,MSZP,Hungarian Socialist Party,Magyar Szocialista P�rt,Social democracy,2.8743,3.5897,20.0
+8,HUN,Hungary,PM,Dialogue for Hungary,P�rbesz�d Magyarorsz�g�rt,Green/Ecologist,2.5,1.8,0.0
+0,IRL,Ireland,A,Aontu,Aont�,Conservative,7.4,7.0,1.0
+1,IRL,Ireland,D-PRB,Solidarity -- People Before Profit,Dl�thphart�ocht � Pobal Roimh Bhrab�s,Communist/Socialist,1.3,3.0,5.0
+2,IRL,Ireland,DS,Social Democrats ,Daonlathaigh Sh�isialta,Social democracy,3.3,3.5,6.0
+3,IRL,Ireland,FF,Fianna Fail,Fianna F�il,Conservative,6.0713,6.9898,37.0
+4,IRL,Ireland,FG,Fine Gael (Familiy of the Irish),Fine Gael,Christian democracy,6.4372,5.787,35.0
+5,IRL,Ireland,Green,Green Party,Green Party  � Comhaontas Glas,Green/Ecologist,2.435,2.1754,12.0
+6,IRL,Ireland,IC,Independents 4 Change,Independents 4 Change,Communist/Socialist,1.3,3.0,1.0
+7,IRL,Ireland,Lab,Labour Party,Labour Party,Social democracy,3.6252,3.1071,6.0
+8,IRL,Ireland,SF,Sinn Fein,Sinn F�in,Communist/Socialist,2.7935,4.5005,37.0
+9,IRL,Ireland,SFWP,Sinn Fein The Workers' Party,Sinn F�in The Workers' Party,Communist/Socialist,1.3,3.0,0.0
+0,ITA,Italy,+EU,More Europe,+Europa,Liberal,6.0,3.6,3.0
+1,ITA,Italy,AIE,Associative Italians Abroad,Associativo Italiani all'Estero,Special issue,0.0,0.0,0.0
+2,ITA,Italy,FI-PdL,Go Italy -- The People of Freedom,Forza Italia � Il Popolo della Libert�,Conservative,7.1459,6.5983,104.0
+3,ITA,Italy,FdI-CN,Brothers of Italy -- National Centre-right,Fratelli d'Italia � Centrodestra Nazionale,Conservative,7.4,7.0,32.0
+4,ITA,Italy,IV,Italy Alive,Italia Viva,Liberal,6.0,3.6,0.0
+5,ITA,Italy,LN,North League,Lega Nord,Right-wing,7.8007,7.9003,125.0
+6,ITA,Italy,M5S,Five Star Movement,Movimento 5 Stelle,no family,5.0,5.0,227.0
+7,ITA,Italy,NCD,New Centre-Right | Popular Alternative,Nuovo Centrodestra | Alternativa Popolare,Conservative,7.4,7.0,0.0
+8,ITA,Italy,PD,Democratic Party,Partito Democratico,Social democracy,2.6216,2.0943,112.0
+9,ITA,Italy,PRC,Communist Refoundation Party,Partito della Rifondazione Comunista,Communist/Socialist,0.8849,1.9878,0.0
+10,ITA,Italy,LeU,Left,Free and Equal,Communist/Socialist,1.3,3.0,14.0
+11,ITA,Italy,SVP,South Tyrol Peoples Party,S�dtiroler Volkspartei,Special issue,5.4,6.9,4.0
+12,ITA,Italy,USEI,South American Union Italian Emigrants,Unione Sudamericana Emigrati Italiani,Conservative,7.4,7.0,1.0
+13,ITA,Italy,UdCe,Democratic Union of the Centre,Unione Democratica di Centro,Liberal,6.0,3.6,0.0
+0,LTU,Lithuania,DP,Labour Party,Darbo partija,Liberal,3.86,5.8,10.0
+1,LTU,Lithuania,LKDP,Lithuanian Christian Democrats,Lietuvos krik�?ionys demokratai,Christian democracy,6.2385,8.6845,0.0
+2,LTU,Lithuania,LLRA,Election Action of Lithuania's Poles,Lietuvos lenk? rinkim? akcija,Special issue,3.865,7.325,3.0
+3,LTU,Lithuania,LP,Freedom Party,Laisv?s partija,Liberal,6.0,3.6,11.0
+4,LTU,Lithuania,LRLS,Liberals Movement of the Republic of Lithuania,Lietuvos Respublikos liberal? s?j?dis,Liberal,7.7562,2.8532,13.0
+5,LTU,Lithuania,LSDDP,Social Democratic Labour Party of Lithuania,Lietuvos socialdemokrat? darbo partija,Social democracy,3.3,3.5,0.0
+6,LTU,Lithuania,LSDP,Lithuanian Social Democratic Party,Lietuvos socialdemokrat? partija,Social democracy,3.1972,5.2732,13.0
+7,LTU,Lithuania,LVLS,Lithuanian Peasant Union,Lietuvos valstie?i? s?junga,Agrarian,3.2687,5.8514,32.0
+8,LTU,Lithuania,LZP,Lithuanian Green Party,Lietuvos �alioji partija,Green/Ecologist,2.5,1.8,1.0
+9,LTU,Lithuania,TS-LK,Homeland Union,T?vyn?s s?junga,Conservative,7.4004,7.1939,50.0
+0,LUX,Luxembourg,AR|ADR,Action Committee Pensions | Alternative Democratic Reform Party,Aktiounskomitee Rente | Alternativ Demokratesch Reformpartei,Conservative,8.8158,7.5,3.0
+1,LUX,Luxembourg,Bl,Citizens' List,Biergerl�scht,Special issue,0.0,0.0,0.0
+2,LUX,Luxembourg,CSV,Christian Social People's Party,Chr�schtlech Sozial Vollekspartei,Christian democracy,6.4474,7.5,23.0
+3,LUX,Luxembourg,DL,The Left,D�i L�nk,Communist/Socialist,0.5263,1.0526,2.0
+4,LUX,Luxembourg,DP,Democratic Party,Demokratesch Partei,Liberal,6.5789,2.7632,13.0
+5,LUX,Luxembourg,Greng,The Greens,D�i Gr�ng,Green/Ecologist,2.5,0.7895,6.0
+6,LUX,Luxembourg,KPL,Communist Party of Luxembourg,Kommunistesch Partei L�tzebuerg,Communist/Socialist,1.3,3.0,0.0
+7,LUX,Luxembourg,LSAP,Luxembourg Socialist Workers' Party,L�tzebuerger Sozialistesch Aarbechterpartei,Social democracy,3.2895,1.3158,13.0
+8,LUX,Luxembourg,Pi,Pirate Party Luxembourg,Piratepartei L�tzebuerg,Special issue,0.0,0.0,0.0
+0,LVA,Latvia,JKP,New Conservative Party,Jaun? konservat?v? partija,Conservative,7.4,7.0,16.0
+1,LVA,Latvia,KP,Movement For!,Kust?ba Par!,Liberal,6,2,13.0
+2,LVA,Latvia,KPV-LV,Who owns the state?,Kam pieder valsts?,Right-wing,8.8,8.5,16.0
+3,LVA,Latvia,LA,For Latvia's Development, Latvijas att?st?bai,Liberal,6.0,3.6,0.0
+4,LVA,Latvia,LZP,Latvian Green Party,Latvijas Za?? partija,Green/Ecologist,4.6711,6.0661,0.0
+5,LVA,Latvia,LZS,Farmers Union of Latvia,Latvijas Zemnieku Savien?ba,Agrarian,4.375,6.04,0.0
+6,LVA,Latvia,NA/TB/LNNK,National Alliance / For Fatherland and Freedom / LNNK,Nacion?l? apvien?ba / T?vzemei un Br?v?bai / LNNK,Right-wing,8.2588,7.4251,13.0
+7,LVA,Latvia,PCTVL,For Human Rights in a United Latvia,Par cilv?ka ties?b?m vienot? Latvij?,Social democracy,1.25,5.5837,0.0
+8,LVA,Latvia,S,Harmony,Saska?as,Social democracy,3.0,4.25,23.0
+9,LVA,Latvia,V,Unity,Vienot?ba,Conservative,7.4,7.0,8.0
+10,LVA,Latvia,ZZS,Green and Farmers' Union,Za?o un Zemnieku savien?ba,Agrarian,5.2632,6.1184,11.0
+0,MLT,Malta,AD,Democratic Alternative,Alternattiva Demokratika,Green/Ecologist,3.7895,4.6316,0.0
+1,MLT,Malta,IE,Imperium Europa, Imperu Ewropew,Right-wing,8.8,8.5,0.0
+2,MLT,Malta,PL,Malta Labour Party,Partit Laburista,Social democracy,4.2105,6.3158,37.0
+3,MLT,Malta,PN,Nationalist Party,Partit Nazzjonalista,Conservative,5.7143,6.9173,30.0
+0,NLD,Netherlands,50+,50PLUS,50PLUS,Liberal,6.0,3.6,4.0
+1,NLD,Netherlands,CDA,Christian Democratic Appeal,Christen Democratisch App�l,Christian democracy,5.9376,6.6882,19.0
+2,NLD,Netherlands,CU,ChristianUnion,ChristenUnie,Christian democracy,6.1732,8.6005,5.0
+3,NLD,Netherlands,D66,Democrats 66,Democraten 66,Liberal,4.5066,1.7625,19.0
+4,NLD,Netherlands,DENK,Think,Beweging DENK,Liberal,6.0,3.6,3.0
+5,NLD,Netherlands,FvD,Forum for Democracy,Forum voor Democratie,Conservative,7.4,7.0,2.0
+6,NLD,Netherlands,GL,GreenLeft,GroenLinks,Green/Ecologist,2.0454,1.644,14.0
+7,NLD,Netherlands,PVV,Party for Freedom,Partij voor de Vrijheid,Right-wing,8.8,6.57,20.0
+8,NLD,Netherlands,PvdA,Labour Party,Partij van de Arbeid,Social democracy,3.6118,3.2028,9.0
+9,NLD,Netherlands,PvdD,Party for the Animals,Partij voor de Dieren,Special issue,3.0,3.0,5.0
+10,NLD,Netherlands,SGP,Political Reformed Party,Staatkundig Gereformeerde Partij,Conservative,8.7531,9.7744,3.0
+11,NLD,Netherlands,SP,Socialist Party,Socialistiese Partij,Communist/Socialist,1.3682,4.2099,14.0
+12,NLD,Netherlands,VN,Volt Netherlands,Volt Nederland,Special issue,0.0,0.0,0.0
+13,NLD,Netherlands,VVD,People's Party for Freedom and Democracy,Volkspartij voor Vrijheid en Democratie,Liberal,7.3482,4.3887,33.0
+14,NLD,Netherlands,none,no party affiliation,no party affiliation,no family,0.0,0.0,0.0
+0,POL,Poland,KORWIN,Coalition for the Renewal of the Republic -- Liberty and Hope,Koalicja Odnowy Rzeczypospolitej Wolno?? i Nadzieja KORWiN,Conservative,7.4,7.0,0.0
+1,POL,Poland,KPN,Confederation for Independent Poland,Konfederacja Polski Niepodleg?ej,Right-wing,5.8333,8.5,11.0
+2,POL,Poland,LR,Left Together,Lewica Razem,Social democracy,3.3,3.5,49.0
+3,POL,Poland,MN,German minority,Mniejszo?? niemiecka w Polsce,Special issue,0.0,0.0,0.0
+4,POL,Poland,N,Modern,Nowoczesna,Liberal,6.0,3.6,0.0
+5,POL,Poland,PO,Civic Platform,Platforma Obywatelska,Conservative,6.2355,3.7102,134.0
+6,POL,Poland,PSL,Polish People's Party,Polskie Stronnictwo Ludowe,Agrarian,4.1856,6.5491,30.0
+7,POL,Poland,PZ,The Greens,Partia Zieloni,Green/Ecologist,2.5,1.8,0.0
+8,POL,Poland,PiS,Law and Justice,Prawo i Sprawiedliwo??,Conservative,7.6997,8.2514,235.0
+9,POL,Poland,SP,United Poland,Solidarna Polska,Right-wing,8.8,8.5,0.0
+10,POL,Poland,WIO,Spring,Wiosna,Social democracy,3.3,3.5,0.0
+0,PRT,Portugal,BE,Bloc of the Left,Bloco de Esquerda,Communist/Socialist,2,1.5,19.0
+1,PRT,Portugal,CDS-PP,Democratic and Social Centre -- People's Party,Centro Democr�tico e Social � Partido Popular,Christian democracy,7,7,5.0
+2,PRT,Portugal,CH,Enough,Chega,Right-wing,8.8,9,1.0
+3,PRT,Portugal,IL,Liberal Initiative,Iniciativa Liberal,Liberal,8,2,1.0
+4,PRT,Portugal,PAN,Party for Animals and Nature,Partido pelos Animais e pela Natureza,Green/Ecologist,3,2.4,3.0
+5,PRT,Portugal,PCP,Portuguese Communist Party,Partido Comunista Portugu�s,Communist/Socialist,1,8,10.0
+6,PRT,Portugal,PEV,Ecology Party -- Greens,Partido Ecologista � Os Verdes,Green/Ecologist,1.25,7.25,2.0
+7,PRT,Portugal,PS,Socialist Party,Partido Socialista,Social democracy,4.0492,3.5411,108.0
+8,PRT,Portugal,PSD,Social Democratic Party,Partido Social Democrata,Liberal Democracy,6,6,79.0
+0,ROU,Romania,AUR,Alliance for the Unity of Romanians,Alian?a pentru Unirea Rom�nilor,Right-wing,8.8,8.5,33.0
+1,ROU,Romania,PER,Romanian Ecologist Party,Partidul Ecologist Rom�n,Green/Ecologist,2.5,1.8,0.0
+2,ROU,Romania,PMP,People's Movement Party,Partidul Mi?carea Popular?,Christian democracy,6.2,7.1,0.0
+3,ROU,Romania,PNL,National Liberal Party,Partidul Na?ional Liberal,Liberal,6.0543,3.5474,93.0
+4,ROU,Romania,PNT-CD,Christian-Democratic National Peasants' Party,Partidul Na?ional ??r?nesc Cre?tin Democrat,Christian democracy,5.5341,6.8421,0.0
+5,ROU,Romania,PRM,Greater Romania Party,Partidul Rom�nia Mare,Right-wing,6.6618,9.5131,0.0
+6,ROU,Romania,PROR,PRO Romania,PRO Rom�nia,Liberal,6.0,3.6,0.0
+7,ROU,Romania,PSD,Social Democratic Party,Partidul Social Democrat,Social democracy,3.2325,6.2794,110.0
+8,ROU,Romania,PaRo,Party of the Roma,Partida Romilor,Social democracy,3.3,3.5,0.0
+9,ROU,Romania,UDMR,Democratic Union of Hungarians in Romania,Uniunea Democrat? Maghiar? din Rom�nia,Conservative,6.016,3.8813,21.0
+10,ROU,Romania,USR,Save Romania Union,Uniunea Salva?i Rom�nia,Liberal,6.0,3.6,55.0
+0,SVK,Slovakia, KDZP, Christian Democracy -- Life and Prosperity,Kres?ansk� demokracia � �ivot a prosperita,Christian democracy,6.2,7.1,0.0
+1,SVK,Slovakia,KDH,Christian Democratic Movement,Kres?anskodemokratick� hnutie,Christian democracy,7.1082,8.8217,0.0
+2,SVK,Slovakia,LsNS,People's Party Our Slovakia,?udov� strana Na�e Slovensko,Right-wing,8.8,8.5,17.0
+3,SVK,Slovakia,OLaNO,Ordinary People and Independent,Oby?ajn� ?udia a nez�visl� osobnosti,Conservative,7.4,7.0,53.0
+4,SVK,Slovakia,SR,We are family -- Boris Kollar,Sme Rodina � Boris Koll�r,Right-wing,8.8,8.5,17.0
+5,SVK,Slovakia,SaS,Freedom and Solidarity,Sloboda a solidarita,Liberal,6.0,3.6,13.0
+6,SVK,Slovakia,Smer,Direction -- Social Democracy,Smer � soci�lna demokracia,Social democracy,3.3799,3.6548,38.0
+7,SVK,Slovakia,ZAL,For the People,Za ?ud�,Liberal,6.0,3.6,12.0
+0,SVN,Slovenia,DOM,Homeland League,Domovinska liga,Right-wing,8.8,8.5,0.0
+1,SVN,Slovenia,DeSUS,Democratic Party of Pensioners of Slovenia,Demokrati?na stranka upokojencev Slovenije,Special issue,3.2292,5.0708,4.0
+2,SVN,Slovenia,KS,Christian Socialists,Kr�?anski socialisti,Christian democracy,6.2,7.1,0.0
+3,SVN,Slovenia,L,The Left,Levica,Communist/Socialist,1.3,3.0,8.0
+4,SVN,Slovenia,LDS,Liberal Democracy of Slovenia,Liberalna demokracija Slovenije,Liberal,3.7351,2.5756,0.0
+5,SVN,Slovenia,LMS,List of Marjan Sarec,Lista Marjana �arca,Social democracy,3.3,3.5,14.0
+6,SVN,Slovenia,NSI,New Slovenia -- Christian People's Party,Nova Slovenija � Kr�?anska ljudska stranka,Christian democracy,7.9345,8.3998,7.0
+7,SVN,Slovenia,SDS,Slovenian Democratic Party,Slovenska demokratska stranka,Christian democracy,6.9996,6.7947,26.0
+8,SVN,Slovenia,SLS,Slovenian People's Party,Slovenska ljudska stranka,Christian democracy,6.6953,7.6299,0.0
+9,SVN,Slovenia,SMC,Party of Miro Cerar,Stranka Mira Cerarja,Social democracy,3.3,3.5,5.0
+10,SVN,Slovenia,SMS,Youth Party of Slovenia,Stranka mladih Slovenije,Green/Ecologist,4.2263,2.7009,0.0
+11,SVN,Slovenia,SNS,Slovenian National Party,Slovenska nacionalna stranka,to be coded,4.7941,6.0148,3.0
+12,SVN,Slovenia,ZL-SD,United List -- Social Democrats,Zdru�ena lista � Socialni demokrati,Social democracy,3.0637,2.9642,12.0
+13,SVN,Slovenia,ZS,Greens of Slovenia,Zeleni Slovenije,Green/Ecologist,2.5,1.8,0.0
+14,SVN,Slovenia,ZaAB,Alliance of Alenka Bratusek,Zavezni�tvo Alenke Bratu�ek,Social democracy,3.3,3.5,5.0
+0,SWE,Sweden,C,Centre Party,Centerpartiet,Agrarian,5.8084,6.0583,31.0
+1,SWE,Sweden,FP,People's Party,Folkpartiet,Liberal,6.2906,2.8515,20.0
+2,SWE,Sweden,Fi,Feminist Initiative,Feministiskt initiativ,Special issue,0.0,0.0,0.0
+3,SWE,Sweden,KD,Christian Democrats,Kristdemokraterna,Christian democracy,7.195,7.9997,22.0
+4,SWE,Sweden,M,Moderate Party,Moderaterna,Conservative,7.8907,5.6977,70.0
+5,SWE,Sweden,MP,Greens,Milj�partiet de Gr�na,Green/Ecologist,3.3789,2.5198,16.0
+6,SWE,Sweden,MbS,Citizens Coalition,Medborgerlig samling,Conservative,7.4,7.0,0.0
+7,SWE,Sweden,Pi,Pirate Party,Piratpartiet,Special issue,0.0,0.0,0.0
+8,SWE,Sweden,SAP,Social Democrats,Socialdemokraterna,Social democracy,3.4447,4.4407,100.0
+9,SWE,Sweden,SD,Sweden Democrats,Sverigedemokraterna,Right-wing,8.8,8.5,62.0
+10,SWE,Sweden,SPI,Swedish Senior Citizen Interest Party,Sveriges pension�rers intresseparti,Special issue,0.0,0.0,0.0
+11,SWE,Sweden,V,Left Party (Communists),V�nsterpartiet (kommunisterna),Communist/Socialist,1.5464,2.4562,28.0
