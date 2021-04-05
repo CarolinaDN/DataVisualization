@@ -22,6 +22,7 @@ parties = pd.read_csv(path + 'parties.csv')
 leadership = pd.read_csv(path +'leadership.csv')
 indicators = pd.read_csv(path +'indexes.csv')
 political_compass = pd.read_csv(path + 'political_compass.csv')
+deputadas = pd.read_csv(path + 'deputadas.csv')
 
 # Instanciate the app
 app = dash.Dash(__name__)#, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
@@ -260,7 +261,29 @@ app.layout = html.Div(
                 )],
             className="row flex-display"
         ),
-        # (Five row): Indicators
+        
+        # (Fifth row): World
+        html.Div(
+            children=[
+                # (Column 2) World
+                html.Div(
+                    children=[
+                        dcc.Graph(style={"maxWidth": "1000px", "margin": "0px",
+                                "textAlign": "center"},
+                                  id="world",
+                                  config={
+                                      "displayModeBar": "hover",
+
+                                  }
+                                  )
+                    ],
+                    className="create_container twelve columns", style={"textAlign":"center"}
+                ),
+            ],
+            className="row flex-display"
+        ),
+        
+        # (Sixth row): Indicators
         html.Div(
             children=[
                 # (Column 1): PIB
@@ -734,7 +757,78 @@ def update_womens(country_name):
 
     return fig
 
-# 5th row
+# 5th row: World
+@app.callback(
+    Output(
+        component_id="world",
+        component_property="figure"
+    ),
+    Input(
+        component_id="country_name",
+        component_property="value"
+    )
+)
+
+def update_world(country_name):
+    political_compass['size'] = 10
+
+    # Info for the scatter
+    x = political_compass['Economic Freedom']
+    y = political_compass['Democracy Index']
+    text = political_compass['Country Name']
+    size = political_compass['size']
+    # mask para filtrar os paises que escolheram no ponto anterior
+    Portugal = ['Portugal']
+    mask_portugal = (political_compass['Country Name'].isin(Portugal))
+
+    # scatter itself
+    fig = px.scatter(political_compass, x, y, size_max=100, color="Continent",
+                     hover_name="Country Name")
+
+    fig.update_traces(textposition='top center')
+    fig.add_shape(type='line', x0=0, x1=110, y0=6, y1=6,line=dict(color='white'))
+    fig.add_shape(type='line', y0=0, y1=10, x0=69.9, x1=69.9,line=dict(color='white'))
+
+    fig.update_layout(title_text="World's Political Compass")
+
+    # Mask Portugal
+    fig.add_trace(px.scatter(political_compass, political_compass['Economic Freedom'][mask_portugal],
+                             political_compass['Democracy Index'][mask_portugal], size=size[mask_portugal],
+                             color_discrete_sequence=['black']).data[0])
+
+    fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+
+    fig['layout']['yaxis']['autorange'] = "reversed"
+
+    fig.add_trace(go.Scatter(
+        x=[70, 70, -1, 110.5],
+        y=[-0.5, 10.5, 6.5, 6.5],
+        mode="text",
+        name="Text",
+        text=["Authoritarian regimes", "Full democracies", "Repressed", "Free"],
+        textposition="bottom center", textfont_size=15, textfont_color='white', textfont_family='Times New Roman'
+
+    ))
+
+    fig.update_xaxes(showline=False, showgrid=False, linewidth=2, linecolor='black', mirror=True,zeroline=False)
+
+    fig.update_yaxes(showline=False, showgrid=False, linewidth=2, linecolor='black', mirror=True,zeroline=False)
+
+    fig.update_layout(
+        font_family="Times New Roman",
+        font_color="white",
+        font_size=12,
+        title_font_family="Times New Roman",
+        title_font_color="white",
+        title_font_size=20,
+        legend_title_font_color="white",
+        legend_font_color='white',
+        legend_font_size=12,
+    )
+
+    return fig
+
+# 6th row
 # PIB
 @app.callback(
     Output(
