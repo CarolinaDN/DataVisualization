@@ -163,7 +163,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "white",
-                                "fontSize": 10
+                                "fontSize": 14
                             }
                         )
 
@@ -193,7 +193,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "white",
-                                "fontSize": 10
+                                "fontSize": 14
                             }),
 
                     ], style={'textAlign': 'center'},
@@ -603,7 +603,7 @@ def update_parties_scatter(country_name):
 
     # scatter itself
     fig = px.scatter(parties[parties.country_name == country_name], x, y, size_max=100,  # color='family_name',
-                     hover_name="party_name_short")
+                     hover_name="party_name_english", hover_data= ['seats','family_name'])
 
     fig.update_traces(marker_color="rgba(0,0,0,0)")
     fig.update_traces(textposition='top center')
