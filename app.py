@@ -13,15 +13,21 @@ from io import BytesIO
 
 # Dataset Processing
 
+# Dataset Processing
+
+
 path = 'https://raw.githubusercontent.com/CarolinaDN/DataVisualization/main/'
 
-parties = pd.read_csv('https://raw.githubusercontent.com/CarolinaDN/DataVisualization/main/parties_final.csv')
+parties = pd.read_csv(path + 'parties_final.csv')
 leadership = pd.read_csv(path +'leadership.csv')
 indicators = pd.read_csv(path +'indexes.csv')
 political_compass = pd.read_csv(path + 'political_compass.csv')
 
 # Instanciate the app
-app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
+app = dash.Dash(__name__)#, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
+
+# Deployment
+server = app.server
 
 # Build the layout
 
