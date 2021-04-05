@@ -22,7 +22,7 @@ indicators = pd.read_csv(path +'indexes.csv')
 political_compass = pd.read_csv(path + 'political_compass.csv')
 
 # Instanciate the app
-app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
+app = dash.Dash(__name__)#, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
 
 # Deployment
 server = app.server
