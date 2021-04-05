@@ -294,7 +294,7 @@ app.layout = html.Div(
                             children="GDP per capita",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -303,7 +303,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "#F7D454",
-                                "fontSize": 40
+                                "fontSize": 40,"font-family": "Times New Roman"
                             }
                         ),
                     ],
@@ -317,7 +317,7 @@ app.layout = html.Div(
                             children="Population",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -326,7 +326,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "#F7D454",
-                                "fontSize": 40
+                                "fontSize": 40,"font-family": "Times New Roman"
                             }
                         ),
                     ],
@@ -340,7 +340,7 @@ app.layout = html.Div(
                             children="Gender Equality (0-100)",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -349,7 +349,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "#F7D454",
-                                "fontSize": 40
+                                "fontSize": 40,"font-family": "Times New Roman"
                             }
                         ),
                     ],
@@ -363,7 +363,7 @@ app.layout = html.Div(
                             children="Religious Index (0-100)",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -372,7 +372,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "#F7D454",
-                                "fontSize": 40
+                                "fontSize": 40,"font-family": "Times New Roman"
                             }
                         ),
                     ],
@@ -394,7 +394,7 @@ app.layout = html.Div(
                             children="Unemployment Rate",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -402,7 +402,7 @@ app.layout = html.Div(
                             id="unemployment",
                             style={
                                 "textAlign": "center",
-                                "color": "#F7D454",
+                                "color": "#F7D454","font-family": "Times New Roman",
                                 "fontSize": 40
                             }
                         ),
@@ -417,7 +417,7 @@ app.layout = html.Div(
                             children="Gini Index (0-100)",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -426,7 +426,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "#F7D454",
-                                "fontSize": 40
+                                "fontSize": 40,"font-family": "Times New Roman"
                             }
                         ),
                     ],
@@ -440,7 +440,7 @@ app.layout = html.Div(
                             children="Happiness Score (0-10)",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -449,7 +449,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "#F7D454",
-                                "fontSize": 40
+                                "fontSize": 40,"font-family": "Times New Roman"
                             }
                         ),
                     ],
@@ -463,7 +463,7 @@ app.layout = html.Div(
                             children="Financial Literacy",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -471,7 +471,7 @@ app.layout = html.Div(
                             id="fin_lit",
                             style={
                                 "textAlign": "center",
-                                "color": "#F7D454",
+                                "color": "#F7D454","font-family": "Times New Roman",
                                 "fontSize": 40
                             }
                         ),
@@ -778,7 +778,7 @@ def update_world(country_name):
     text = political_compass['Country Name']
     size = political_compass['size']
     # mask para filtrar os paises que escolheram no ponto anterior
-    Portugal = ['Portugal']
+    Portugal = [country_name]
     mask_portugal = (political_compass['Country Name'].isin(Portugal))
 
     # scatter itself
