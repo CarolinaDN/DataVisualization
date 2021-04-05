@@ -23,7 +23,7 @@ deputadas = pd.read_csv(path + 'deputadas.csv')
 
 # Instanciate the app
 # Deployment
-#server = app.server
+server = app.server
 
 app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
 
