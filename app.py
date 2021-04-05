@@ -61,14 +61,14 @@ app.layout = html.Div(
                                     children="A Glimpse into the Politics of Europe ",
                                     style={
                                         "margin-bottom": "0",
-                                        "color": "white", "textAlign": "center right"
+                                        "color": "white", "textAlign": "center right","font-family": "Times New Roman"
                                     }
                                 ),
                                 html.H5(
                                     children="An Interactive Visualization",
                                     style={
                                         "margin-bottom": "0",
-                                        "color": '#F7D454', "textAlign": "center"
+                                        "color": '#F7D454', "textAlign": "center","font-family": "Times New Roman"
                                     }
                                 )
                             ]
@@ -81,12 +81,12 @@ app.layout = html.Div(
                 # Github
                 html.Div(
                     children=[
-                        html.H6(children="Dash Politics", style={"color": "white"}),
+                        html.H6(children="Dash Politics", style={"color": "white","font-family": "Times New Roman"}),
                         html.A(
                             id="github-link",
                             children=["View source code on Github"],
                             href="https://github.com/CarolinaDN/DataVisualization/tree/main/Project2",
-                            style={"color": "#F7D454"}
+                            style={"color": "#F7D454","font-family": "Times New Roman"}
                         ),
                     ],
                     className="one-third column", id="title1"
@@ -107,10 +107,10 @@ app.layout = html.Div(
                     children=[
                         # Country selector
                         html.P(
-                            children="Select your Fighter: ",
+                            children="Select your Cuntry: ",
                             className="fix_label",
                             style={
-                                "color": "white"
+                                "color": "white,","font-family": "Times New Roman"
                             }
                         ),
                         dcc.Dropdown(
@@ -138,9 +138,8 @@ app.layout = html.Div(
                     ],
                     className="create_container four columns"
                 ),
-                # (Column 2): Flag
-
-                # (Column 3): Head of State
+               
+                # (Column 2): Head of State
                 html.Div(
                     children=[
                         # Title
@@ -148,7 +147,7 @@ app.layout = html.Div(
                             children="Head of State",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -163,14 +162,14 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "white",
-                                "fontSize": 14
+                                "fontSize": 14,"font-family": "Times New Roman"
                             }
                         )
 
                     ], style={'textAlign': 'center'},
                     className="card_container four columns"
                 ),
-                # (Column 4): Head of Government
+                # (Column 3): Head of Government
                 html.Div(
                     children=[
                         # Title
@@ -178,7 +177,7 @@ app.layout = html.Div(
                             children="Head of Government",
                             style={
                                 "textAlign": "center",
-                                "color": "white"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         # Total value
@@ -193,7 +192,7 @@ app.layout = html.Div(
                             style={
                                 "textAlign": "center",
                                 "color": "white",
-                                "fontSize": 14
+                                "fontSize": 14,"font-family": "Times New Roman"
                             }),
 
                     ], style={'textAlign': 'center'},
@@ -240,7 +239,28 @@ app.layout = html.Div(
             ],
             className="row flex-display"
         ),
-        # (Forth row): Indicators
+        # (Forth row): Womens
+        html.Div(
+            children=[
+                # (Column 1) Womens
+                html.Div(
+                    children=[
+                        # Womens
+                        dcc.Graph(
+                            id="plot_womens",
+                            config={
+                                "displayModeBar": "hover"
+                            }
+                        )
+                    ],
+                    className="create_container twelve columns"  # ,
+                    # style={
+                    # "maxWidth": "400px"
+                    # }
+                )],
+            className="row flex-display"
+        ),
+        # (Five row): Indicators
         html.Div(
             children=[
                 # (Column 1): PIB
@@ -658,8 +678,63 @@ def update_parties_scatter(country_name):
 
     return fig
 
+# Womens
+@app.callback(
+    Output(
+        component_id="plot_womens",
+        component_property="figure"
+    ),
+    Input(
+        component_id="country_name",
+        component_property="value"
+    )
+)
 
-# 4th row
+
+
+
+def update_womens(country_name):
+    deputadas.columns = ['Year', 'Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus',
+                         'Czech Republic', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany',
+                         'Greece', 'Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania',
+                         'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania',
+                         'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'mean']
+
+    deputadas.set_index('Year', inplace=True)
+
+    deputadas_country = deputadas[[country_name, 'mean']]
+
+    fig = px.bar(parties, x=deputadas_country.index, y=deputadas_country[country_name],
+                 title="Share of Women in Parliament",
+                 color_discrete_sequence=px.colors.qualitative.Bold,
+                 labels={
+                     "x": "Years",
+                     "y": "Share (%) in Parliament"
+                 })
+    fig.add_trace(go.Scatter(x=deputadas_country.index, y=deputadas_country['mean'],
+                             mode='lines+markers',
+                             name='European Average', line=dict(color="#F7D454", width=3)))
+
+    fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+
+    fig.update_layout(
+        font_family="Times New Roman",
+        font_color="white",
+        font_size=12,
+        title_font_family="Times New Roman",
+        title_font_color="white",
+        title_font_size=20,
+        legend_title_font_color="white",
+        legend_font_color='white',
+        legend_font_size=12,
+    )
+    fig.update_xaxes(showline=False, showgrid=False, linewidth=2, linecolor='black', mirror=True)
+
+    fig.update_yaxes(showline=False, showgrid=False, linewidth=2, linecolor='black', mirror=True)
+
+    return fig
+
+# 5th row
 # PIB
 @app.callback(
     Output(
