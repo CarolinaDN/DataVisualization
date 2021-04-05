@@ -14,12 +14,12 @@ from io import BytesIO
 # Dataset Processing
 
 
-# path = 'https://github.com/CarolinaDN/DataVisualization/tree/main/Project2/Datasets/'
+path = 'https://raw.githubusercontent.com/CarolinaDN/DataVisualization/main/'
 
-parties = pd.read_csv('./Datasets/parties_final.csv')
-leadership = pd.read_csv('./Datasets/leadership.csv')
-indicators = pd.read_csv('./Datasets/indexes.csv')
-political_compass = pd.read_csv('./Datasets/political_compass.csv')
+parties = pd.read_csv(path + 'parties_final.csv')
+leadership = pd.read_csv(path +'leadership.csv')
+indicators = pd.read_csv(path +'indexes.csv')
+political_compass = pd.read_csv(path + 'political_compass.csv')
 
 # Instanciate the app
 app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
