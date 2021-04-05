@@ -18,7 +18,7 @@ from io import BytesIO
 
 path = 'https://raw.githubusercontent.com/CarolinaDN/DataVisualization/main/'
 
-parties = pd.read_csv(path + 'parties_final.csv')
+parties = pd.read_csv(path + 'parties.csv')
 leadership = pd.read_csv(path +'leadership.csv')
 indicators = pd.read_csv(path +'indexes.csv')
 political_compass = pd.read_csv(path + 'political_compass.csv')
