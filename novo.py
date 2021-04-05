@@ -24,6 +24,9 @@ political_compass = pd.read_csv('./Datasets/political_compass.csv')
 # Instanciate the app
 app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
 
+# Deployment
+server = app.server
+
 # Build the layout
 
 
