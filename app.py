@@ -111,7 +111,7 @@ app.layout = html.Div(
                             children="Select a Country: ",
                             className="fix_label",
                             style={
-                                "color": "white,","font-family": "Times New Roman"
+                                "color": "white","font-family": "Times New Roman"
                             }
                         ),
                         dcc.Dropdown(
