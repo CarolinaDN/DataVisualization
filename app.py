@@ -784,7 +784,7 @@ def update_world(country_name):
 
     # scatter itself
     fig = px.scatter(political_compass, x, y, size_max=100, color="Continent",
-                     hover_name="Country Name")
+                     hover_name="Country Name", color_discrete_sequence=px.colors.qualitative.Prism)
 
     fig.update_traces(textposition='top center')
     fig.add_shape(type='line', x0=0, x1=110, y0=6, y1=6,line=dict(color='white'))
