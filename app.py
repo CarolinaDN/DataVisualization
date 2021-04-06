@@ -717,24 +717,25 @@ def update_parties_scatter(country_name):
 
 
 def update_womens(country_name):
+    
     deputadas.columns = ['Year', 'Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus',
                          'Czech Republic', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany',
                          'Greece', 'Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania',
                          'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania',
                          'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'mean']
 
-    deputadas.set_index('Year', inplace=True)
+    
 
     deputadas_country = deputadas[[country_name, 'mean']]
 
-    fig = px.bar(parties, x=deputadas_country.index, y=deputadas_country[country_name],
+    fig = px.bar(deputadas_country, x=deputadas.Year.unique(), y=deputadas_country[country_name],
                  title="Share of Women in Parliament",
                  color_discrete_sequence=px.colors.qualitative.Bold,
                  labels={
                      "x": "Years",
                      "y": "Share (%) in Parliament"
                  })
-    fig.add_trace(go.Scatter(x=deputadas_country.index, y=deputadas_country['mean'],
+    fig.add_trace(go.Scatter(x=deputadas.Year.unique(), y=deputadas_country['mean'],
                              mode='lines+markers',
                              name='European Average', line=dict(color="#F7D454", width=3)))
 
