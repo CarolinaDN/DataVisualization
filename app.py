@@ -108,7 +108,7 @@ app.layout = html.Div(
                     children=[
                         # Country selector
                         html.P(
-                            children="Select your Cuntry: ",
+                            children="Select a Country: ",
                             className="fix_label",
                             style={
                                 "color": "white,","font-family": "Times New Roman"
